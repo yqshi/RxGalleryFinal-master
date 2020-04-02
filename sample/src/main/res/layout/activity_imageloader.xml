@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_blue_dark"
+        app:title="ImageLoader" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb_gif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否开启gif" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_glide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PICASSO" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fresco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRESCO" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_universal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIVERSAL" />
+
+</LinearLayout>
